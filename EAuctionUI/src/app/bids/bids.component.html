@@ -1,0 +1,15 @@
+<p *ngIf="bidDetails && bidDetails.length > 0" class="header">Bid Details</p>
+<div *ngFor="let bid of bidDetails; let idx = index">
+    <div *ngIf="idx == 0" class="row header">
+        <div>Bid Amount</div>
+        <div>First Name</div>
+        <div>Phone</div>
+        <div>Email</div>
+    </div>
+    <div class="row">
+        <div>{{ bid.bidAmount }}</div>
+        <div>{{ bid.firstName }}</div>
+        <div>{{ bid.phone }}</div>
+        <div>{{ bid.email }}</div>
+    </div>
+</div>

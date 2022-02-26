@@ -1,0 +1,15 @@
+* {
+    font-family: sans-serif;
+}
+
+#banner {
+    display: flex;
+}
+
+#banner>.content {
+    line-height: 8pc;
+    vertical-align: middle;
+    font-size: x-large;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}

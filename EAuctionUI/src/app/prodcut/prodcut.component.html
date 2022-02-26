@@ -1,0 +1,23 @@
+<div *ngIf="productDetails">
+    <p class="heading">Product Information</p>
+    <div class="row">
+        <div class="column">Product Name: </div>
+        <div class="column">{{ productDetails?.productName }}</div>
+    </div>
+    <div class="row">
+        <div class="column">Short Description: </div>
+        <div class="column">{{ productDetails?.shortDescription }}</div>
+    </div>
+    <div class="row">
+        <div class="column">Category: </div>
+        <div class="column">{{ productDetails?.category }}</div>
+    </div>
+    <div class="row">
+        <div class="column">Starting Price: </div>
+        <div class="column">{{ productDetails?.startingPrice }}</div>
+    </div>
+    <div class="row">
+        <div class="column">Bid EndDate: </div>
+        <div class="column">{{ productDetails?.bidEndDate | date }}</div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+    margin: 2px;
+    margin-bottom: 5px;
+}
+
+.row>* {
+    flex: 1;
+}
+
+p.header {
+    text-decoration: underline;
+}
+
+.row.header {
+    font-weight: bold;
+}

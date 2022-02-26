@@ -1,0 +1,16 @@
+.row {
+    display: flex;
+}
+
+.column {
+    margin: 2px;
+    padding: 2px;
+}
+
+.heading {
+    text-decoration: underline;
+}
+
+.row>.column:first-child {
+    font-weight: bold;
+}

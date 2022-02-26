@@ -1,0 +1,23 @@
+* {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 20px;
+}
+
+input {
+    width: 20%;
+    height: 2pc;
+    border-radius: 8px;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    height: 2pc;
+    border-radius: 6px;
+    width: 10%;
+    font-size: 15px;
+    background: #e7e4f1;
+}
