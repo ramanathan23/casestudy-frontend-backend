@@ -1,0 +1,475 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.API\\BuyerAPI\\BuyerAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.API\\BuyerAPI\\BuyerAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.API\\BuyerAPI\\BuyerAPI.csproj",
+        "projectName": "EAuction.Buyer.API",
+        "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.API\\BuyerAPI\\BuyerAPI.csproj",
+        "packagesPath": "C:\\Users\\Phoenix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.API\\BuyerAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Phoenix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\Buyer.Core\\Buyer.Core.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\Buyer.Core\\Buyer.Core.csproj"
+              },
+              "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\EAuction.Core.Common\\EAuction.Core.Common.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\EAuction.Core.Common\\EAuction.Core.Common.csproj"
+              },
+              "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Common\\EAuction.Infrastructure.Common.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Common\\EAuction.Infrastructure.Common.csproj"
+              },
+              "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Messaging\\EAuction.Messaging.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Messaging\\EAuction.Messaging.csproj"
+              },
+              "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Persistence\\EAuction.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Persistence\\EAuction.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\Buyer.Core\\Buyer.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\Buyer.Core\\Buyer.Core.csproj",
+        "projectName": "EAuction.Buyer.Core",
+        "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\Buyer.Core\\Buyer.Core.csproj",
+        "packagesPath": "C:\\Users\\Phoenix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\Buyer.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Phoenix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\EAuction.Core.Common\\EAuction.Core.Common.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\EAuction.Core.Common\\EAuction.Core.Common.csproj"
+              },
+              "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Messaging\\EAuction.Messaging.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Messaging\\EAuction.Messaging.csproj"
+              },
+              "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Persistence\\EAuction.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Persistence\\EAuction.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\EAuction.Core.Common\\EAuction.Core.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\EAuction.Core.Common\\EAuction.Core.Common.csproj",
+        "projectName": "EAuction.Core.Common",
+        "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\EAuction.Core.Common\\EAuction.Core.Common.csproj",
+        "packagesPath": "C:\\Users\\Phoenix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Core\\EAuction.Core.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Phoenix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Common\\EAuction.Infrastructure.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Common\\EAuction.Infrastructure.Common.csproj",
+        "projectName": "EAuction.Infrastructure.Common",
+        "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Common\\EAuction.Infrastructure.Common.csproj",
+        "packagesPath": "C:\\Users\\Phoenix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Phoenix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Messaging\\EAuction.Messaging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Messaging\\EAuction.Messaging.csproj",
+        "projectName": "EAuction.Messaging",
+        "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Messaging\\EAuction.Messaging.csproj",
+        "packagesPath": "C:\\Users\\Phoenix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Messaging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Phoenix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Common\\EAuction.Infrastructure.Common.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Common\\EAuction.Infrastructure.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Persistence\\EAuction.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Persistence\\EAuction.Persistence.csproj",
+        "projectName": "EAuction.Persistence",
+        "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Persistence\\EAuction.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Phoenix\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Phoenix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Common\\EAuction.Infrastructure.Common.csproj": {
+                "projectPath": "C:\\Users\\Phoenix\\OneDrive\\Desktop\\Repos\\EAuction\\EAuction.Infrastructure\\EAuction.Common\\EAuction.Infrastructure.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

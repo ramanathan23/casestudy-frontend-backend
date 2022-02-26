@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>EAuction.Seller.Core</AssemblyName>
+    <RootNamespace>EAuction.Seller.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\EAuction.Infrastructure\EAuction.Messaging\EAuction.Messaging.csproj" />
+    <ProjectReference Include="..\..\EAuction.Infrastructure\EAuction.Persistence\EAuction.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
