@@ -1,5 +1,6 @@
 ﻿using EAuction.Buyer.Core.Domain;
 using EAuction.Buyer.Core.Domain.Messages;
+using EAuction.Buyer.Core.Repositories;
 using EAuction.Infrastructure.Common;
 using EAuction.Messaging;
 using EAuction.Persistence.Repositories;
@@ -35,7 +36,7 @@ namespace EAuction.Buyer.Core.Consumers
                 var product = JsonConvert.DeserializeObject<AuctionProduct>(message);
                 if (product != null)
                 {
-                    var result = this.scope.ServiceProvider.GetRequiredService<IRepository<AuctionBid, string>>().Query().Where(i => i.ProductId == product.Id).Count();
+                    var result = this.scope.ServiceProvider.GetRequiredService<IBidRepository>().Query().Where(i => i.ProductId == product.Id).Count();
                     if (result == 0)
                         await this.publisher.PublishMessageAsync(new EventMessage() { MessageType = "ProductDeleteConfirmation", Message = message });
                 }
